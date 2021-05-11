@@ -1,0 +1,26 @@
+{
+    "name":"CommandBox Convert",
+    "version":"1.0.0",
+    "author":"Scott Steinbeck",
+    "homepage":"https://github.com/scottsteinbeck/commandbox-convert/",
+    "documentation":"",
+    "repository":{
+        "type":"",
+        "URL":"https://github.com/scottsteinbeck/commandbox-convert/"
+    },
+    "bugs":"",
+    "slug":"commandbox-convert",
+    "shortDescription":"A conversion tool for taking table like data and converting it to excel, csv, json, or pdf",
+    "type":"commandbox-modules",
+    "scripts":{
+        "postVersion":"package set location='commandbox-modules/commandbox-convert#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    },
+    "dependencies":{
+        "lucee-spreadsheet":"^2.18.2"
+    },
+    "installPaths":{
+        "lucee-spreadsheet":"modules/lucee-spreadsheet/"
+    }
+}
