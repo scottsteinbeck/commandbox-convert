@@ -1,4 +1,4 @@
-# DocBox Commands
+# Commandbox Convert
 
 Commandbox Convert is a module for working with excel/csv data. The module utilizes the amazing lucee-spreadsheet created by Julian Halliwell.
 The module tries to handle some of the common use cases for working with table like data coming from a csv, excel, or any other valid JSON type data
